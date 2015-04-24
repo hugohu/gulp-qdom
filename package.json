@@ -1,0 +1,26 @@
+{
+  "name": "gulp-qdom",
+  "version": "0.0.0",
+  "description": "gulp plugin for dom",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugohu/gulp-qdom.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "qdom"
+  ],
+  "author": "huugle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugohu/gulp-qdom/issues"
+  },
+  "homepage": "https://github.com/hugohu/gulp-qdom",
+  "devDependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": "^0.5.1",
+    "cheerio":"*"
+  }
+}
