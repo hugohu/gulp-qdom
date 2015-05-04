@@ -9,7 +9,7 @@ var cheerio = require('cheerio');
 
 
 // Consts
-var PLUGIN_NAME = 'gulp-preprocess';
+var PLUGIN_NAME = 'gulp-qdom';
 
 module.exports = function (fn) {
 
