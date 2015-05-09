@@ -12,6 +12,11 @@
     "plugin",
     "qdom"
   ],
+  "dependencies": {
+    "gulp-util": "latest",
+    "cheerio": "latest",
+    "through2": "latest"
+  },
   "author": "huugle",
   "license": "MIT",
   "bugs": {
