@@ -26,7 +26,8 @@ module.exports = function (fn) {
 
 		//处理区块 start
 		var html=file.contents.toString();
-		var $ = cheerio.load(html);
+
+		var $ = cheerio.load(html,{decodeEntities: false});
 		fn.call(this,$);
 		var content = $.html();
 		// end !

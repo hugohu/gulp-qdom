@@ -1,6 +1,6 @@
 {
   "name": "gulp-qdom",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "gulp plugin for dom",
   "main": "index.js",
   "repository": {
