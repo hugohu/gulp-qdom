@@ -1,7 +1,7 @@
 {
   "name": "gulp-qdom",
   "version": "0.0.2",
-  "description": "gulp plugin for dom",
+  "description": "gulp plugin for query html like jquery.",
   "main": "index.js",
   "repository": {
     "type": "git",

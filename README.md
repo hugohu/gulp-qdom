@@ -1,9 +1,9 @@
 gulp-qdom
 ===============
 
-可以在gulp中已jquery的语法来操作dom 最后输出结果.
+可以在gulp中用jquery的语法来操作html 最后输出结果.
 相关语法说明请参考:
-**cheerio**
+**<a href="https://github.com/cheeriojs/cheerio">cheerio</a> **
 
 https://github.com/cheeriojs/cheerio
 
@@ -16,7 +16,7 @@ gulp.task('build', function() {
   return gulp.src('./*.html')
     .pipe(qdom(function($) {
       //这里可以用jquery语法来操作.
-      //$("link").attr("href", "1111");
+      //$("link").attr("href", "test");
 
     }))
     .pipe(gulp.dest('./dist'));
