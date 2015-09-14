@@ -1,7 +1,7 @@
 {
   "name": "gulp-qdom",
-  "version": "0.0.2",
-  "description": "gulp plugin for query html like jquery.",
+  "version": "0.0.3",
+  "description": "Gulp plugin to preprocess HTML. use jquery grammar.",
   "main": "index.js",
   "repository": {
     "type": "git",
